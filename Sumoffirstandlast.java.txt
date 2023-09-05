@@ -1,0 +1,9 @@
+class Sumoffirstandlast
+{
+	public static void main(String args [])
+	{
+		int a=1234,b=1234%10;
+		System.out.println(b);
+		
+	}
+}
