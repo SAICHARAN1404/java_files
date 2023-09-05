@@ -1,0 +1,162 @@
+EMPLOYEE SALARY:-------------------
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    int employeeid=1276;
+	    String employeename="Charan";
+	    char employeedepartment='A';
+	    int employeebasicsalary=15000;
+	    
+	    double ta,da,hra;
+	    
+	    ta=(10.0/100)*employeebasicsalary;
+	    da=(15/100.0)*employeebasicsalary;
+	    hra=(20/100.0)*employeebasicsalary;
+	    double specialallowance=ta+da+hra;
+	    
+	    double grosssalary=employeebasicsalary+specialallowance;
+	    
+	    System.out.println(ta);
+	    System.out.println(da);
+	    System.out.println(hra);
+	
+	    
+	    
+	    
+	    
+		System.out.println(grosssalary);
+	}
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROGRAM TO FIND DISCOUNT AND ADD GST:============>>>>>
+
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	  int productid=6947;
+	  String productname="mobile";
+	  int productprice=20000;
+	  int productquantity=2;
+	  double total=productprice*productquantity;
+	  
+	  double discount=(10.0/100)*total;
+	  double cost=total-discount;
+	  double gst=(15.0/100)*total;
+	  double finalprice=cost+gst;
+	  System.out.println(discount);
+	  System.out.println(total);
+	  System.out.println(gst);
+	  System.out.println(finalprice);
+	  
+	}
+}
+
+.....................................................................................................................
+
+ACCOUNT BALANCE:
+
+
+
+public class Main
+
+{
+
+	public static void main(String[] args)
+	{
+	    int bankid=1234;
+	    String accountno="91000000001";
+	    String personname="Charan";
+	    double currentbalance=50000;
+	    double withdrawlamount=20000;
+	    double finalcurrentbalance=currentbalance-withdrawlamount;
+	    System.out.println(finalcurrentbalance);
+	  
+	}
+}
+
+............................................................................................................................................................................................
+
+AREA OF CIRCLE AND AREA OF CIRCUMFERENCE:
+
+
+
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	  int r=10;
+	  double pi=3.14;
+	  double areaofcircumference=2*pi*r;
+	  double areaofcircle=pi*r*r;
+	  System.out.println(areaofcircle);
+	  System.out.println(areaofcircumference);
+	  
+	}
+}
+
+............................................................................................................................................................................................
+
+PTR/100:
+
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	 int principle=100000;
+	 int time=10;
+	 double rateofinterest=(1);
+	 double Total=(principle*time*rateofinterest)/100;
+	 System.out.println(rateofinterest);
+	 System.out.println(Total);
+	 
+	  
+	}
+}
+
+............................................................................................................................................................................................
+
+MARKS:
+
+public class Main
+{
+     public static void main(String[] args)
+     {
+     double sub=100;
+     String name="SAI CHARAN";
+     String hno="1727100921";
+     int s1=99,s2=95,s3=90,s4=85,s5=80,s6=75;
+     double total=s1+s2+s3+s4+s5+s6;
+     double totalper=(total/600.0)*100;
+     double s1per=s1/sub*100;
+     double s2per=s2/sub*100;
+     double s3per=s3/sub*100;
+     double s4per=s4/sub*100;
+     double s5per=s5/sub*100;
+     double s6per=s6/sub*100;
+     double avgper=(s1per+s2per+s3per+s4per+s5per+s6per)/6;
+     double t=(totalper-avgper);
+     System.out.println(total);
+     System.out.println(totalper);
+     System.out.println(s1per);
+     System.out.println(s2per);
+     System.out.println(s3per);
+     System.out.println(s4per);
+     System.out.println(s5per);
+     System.out.println(s6per);
+     System.out.println(avgper);
+     System.out.println(t);
+	  
+     }
+}
+
+
+
+

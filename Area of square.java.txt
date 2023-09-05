@@ -1,0 +1,10 @@
+public class Main
+{
+    public static void main (String[] args)
+    {
+        int side=10;
+        int areaofsquare=side*side;
+        System.out.println(areaofsquare);
+        
+    }
+}

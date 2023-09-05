@@ -1,0 +1,6 @@
+1.write a java program to print area and perimeter of a square ,rectangle by taking length and breadth as input
+   area of square= side*side
+   perimeter of square=4*side 
+   area of rectangle = length*breadth
+   perimeter of rectangle =2*(length+breadth)
+2.write a java program to convert hours into minutes and minutes into hours
