@@ -5,8 +5,7 @@ class Age1
 	int age=60;
 	if (age<18)
 	{
-
-		System.out.println("MINORPERSON");
+		System.out.println("MINOR");
 	}
 	else if(age>=50)
 	{

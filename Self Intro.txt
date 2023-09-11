@@ -1,0 +1,8 @@
+Self Intro
+-->Good morining .
+-->I am Sai charan teja .I am from wanparthy .I am currently staying in Hyderabad.
+-->I have scored above 80% in SSC and above 90% in intermediate and I have scored 60 percentage in engineering in the stream of Electrical.
+--> And I have done a major project related to EEE about 	IDENTIFICATION OF REASONS OF POWER QUALITY DISTURBANCES:::::If asked: causes are 1.Induction motor starting ,2.transformer energizing,3.capacitor energizing,4.Symmetrical fault ,5.Assymetrical fault.
+-->I have learned these qualities in my engeneering such as to maintain consistency,and to work hard.
+-->My skills are Basics in Python,Core java,git hub.
+-->
