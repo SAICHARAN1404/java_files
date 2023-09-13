@@ -1,0 +1,188 @@
+All programs
+
+PROGRAM 1:
+class Evilnumber
+{
+	public static void main (String args[])
+	{
+		int num=9,rem,sum=0;
+		int  i=(int)Math.pow(num,2);
+		for(int j=i;j!=0;j/=10)
+		{
+			rem=j%10;
+			sum=sum+rem;
+		}
+		System.out.println(sum==num?"Evil number":"Not an evil number");
+	}
+}
+OUTPUT:
+C:\javafirst>javac Evilnumber.java
+
+C:\javafirst>java Evilnumber
+Evil number
+============================================================================================
+PROGRAM 2:
+class Powernumber
+{
+	public static void main (String args[])
+	{
+		int i=217,rem,sum=0,mul=1;
+		for(int j=i;j!=0;j/=10)
+		{
+			rem=j%10;
+			sum=sum+rem;
+			mul=mul*rem;
+		}
+		System.out.println(sum==mul?"Power Number":"Not a Power  number");
+	}
+}
+OUTPUT:
+
+C:\javafirst>javac Powernumber.java
+
+C:\javafirst>java Powernumber
+Not a Power  number
+==============================================================================================
+PROGRAM 3:
+class Aliennumber
+{
+	public static void main(String args[])
+	{	
+		int num=14,rem,rev=0,rem1,rev1=0;
+		double d2;
+		double d1=(int)Math.pow(num,2);
+		for (int i = num;i!=0;i/=10)
+		{
+			rem=i%10;
+			rev=rev*10+rem;
+		}
+		d2=(int)Math.pow(rev,2);
+		for(int j=(int)d1;j!=0;j/=10)
+		{
+			rem1=j%10;
+			rev1=rev1*10+rem1;
+		}
+		System.out.println(rev1==d2?"Alien number":"Not");
+	}
+}	
+OUTPUT:
+
+C:\javafirst>javac Aliennumber.java
+
+C:\javafirst>java Aliennumber
+Alien number
+==============================================================================================
+PROGRAM 4:
+class Armstrong
+{
+	public static void main(String args[])
+	{
+		int num=153,rem,digits=0;
+		double sum=0;
+		for(int i=num;i!=0;i/=10)
+		{
+			digits++;
+		}
+		for(int i=num;i!=0;i/=10)
+		{
+			rem=i%10;
+			sum=sum+Math.pow(rem,digits);
+		}
+		System.out.println(sum==num?"Armstrong":"Not an armstrong");
+	}
+	
+}
+OUTPUT:
+
+C:\javafirst>javac Armstrong.java
+
+C:\javafirst>java Armstrong
+Armstrong
+==============================================================================================
+PROGRAM 5:
+class Palindrome
+{
+	public static void main(String args[])
+	{
+		int num=121,rem,rev=0;
+		for(int i =num;i!=0;i/=10)
+		{
+			rem=i%10;
+			rev=rev*10+rem;	
+		}
+		System.out.println(rev==num?"Palindrome":"Not a palindrome");
+	}
+}
+OUTPUT:
+
+C:\javafirst>javac Palindrome.java
+
+C:\javafirst>java Palindrome
+Palindrome
+=============================================================================================
+PROGRAM 6:
+class PrimeorN
+{
+	public static void main(String args[])
+	{
+		int num=7,start=2,count=0;
+		for(;num/2>=start;start++)
+		{
+			if(num%start==0)
+			{
+				count++;
+				break;
+			}
+		}
+		if(count==0)
+			System.out.println("prime");
+		else 
+			System.out.println(" not prime");
+
+	}
+}
+Prime
+==========================================================================================
+class Automaticnumber
+{
+	public static void main (String args[])
+	{
+		int num=76,d=num*num,r;
+		r=d%100;
+		if (num==r)
+			System.out.println("Automatic");
+		else
+			System.out.println(''Not");
+	}
+}
+Automatic
+============================================================================================
+class Technologynumber
+{
+	public static void main(String args[])
+	{
+		int num=2025,digits=0,var2=0,var1=0,sum=0;
+		double d;
+		for(int i=num;i!=0;i/=10)
+		{
+			digits++;
+		}
+		System.out.println(digits);
+		if(digits==4)
+		{
+			var2=num%100;
+			var1=num/100;
+		}
+		sum=var1+var2;
+		d=Math.pow(sum,2);
+		System.out.println(num==sum?"Technologynumber":"Not");
+	}
+}
+====================================================================================================
+class Prime1to10
+{
+	public static void main(String args[])
+	{
+		int 
+	}
+}
