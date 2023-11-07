@@ -1,0 +1,71 @@
+TEST:
+class Exam
+{
+	public static void main(String args[])
+	{
+		int row=4;
+		for(int r=1;r<=row;r++)
+		{
+			for(int c=r;c>=1;c--)
+			{
+				System.out.print(c);
+			}
+		
+		System.out.println();
+		}
+		for(int j=row;j>=1;j--)
+		{		
+			for(int k=j;k>=1;k--)
+			{
+				System.out.print(k);
+			}
+			System.out.println();
+		}
+	
+	}
+}
+OUTPUT:
+1
+21
+321
+4321
+321
+21
+1
+==============================================================================================
+class Evilmethod
+{
+	public static void main(String args[])
+	{
+		Add add=new Add();
+		add.i=9;
+		add.forLoop();add.compRes();
+		
+	}	
+}
+class Add
+{
+	int i, square, rem,sum;
+	void forLoop()
+	{
+		for(square =i*i;square>0;square/=10)
+		{
+			rem=square%10;
+			sum=sum+rem;
+			
+		}
+	}
+	void compRes()
+	{
+		
+		System.out.println(sum);
+		System.out.println(i);
+		if(sum==i)
+			System.out.println("Evil");
+		else
+			System.out.println("Not an Evil");
+	}
+}
+OUTPUT:
+Evil
+=============================================================================================
